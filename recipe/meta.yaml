@@ -1,6 +1,6 @@
 {% set name = "adc-streaming" %}
-{% set version = "2.0.0" %}
-{% set sha256 = "c1ab8aee52684ff1f1c5ae469a760a435d6c45836ead4e9a97423a4893cb92d6" %}
+{% set version = "2.1.0" %}
+{% set sha256 = "0655b6fd890a3175f6681bf987006f310c29fba0a7c8f19098dcd6b4744d4dc7" %}
 
 package:
   name: {{ name }}
@@ -23,10 +23,12 @@ requirements:
 
   run:
     - python >=3.6
+    - authlib
     - certifi >=2020.04.05.1
     - dataclasses
     - importlib-metadata
     - python-confluent-kafka
+    - requests
     - tqdm
 
 test:
