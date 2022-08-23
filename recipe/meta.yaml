@@ -44,6 +44,7 @@ about:
 
 extra:
   recipe-maintainers:
+    - adambrazier
     - mjuric
     - cnweaver
     - myNameIsPatrick
