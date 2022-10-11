@@ -30,7 +30,7 @@ requirements:
     - python-confluent-kafka
     - requests
     - tqdm
-    - typing-extensions ; python_version < 3.8
+    - typing-extensions
 
 test:
   imports:
