@@ -1,6 +1,6 @@
 {% set name = "adc-streaming" %}
-{% set version = "2.2.0" %}
-{% set sha256 = "4b9ca8257a8011ed0e947bae885eb233ae33061b3067fb2731d1ec0330c1f71e" %}
+{% set version = "2.3.0" %}
+{% set sha256 = "1ef60d1811e23eecdac4b1e425c0e9cf120a43753a6b6f98fe355d730f1671b5" %}
 
 package:
   name: {{ name }}
@@ -30,6 +30,7 @@ requirements:
     - python-confluent-kafka
     - requests
     - tqdm
+    - typing-extensions
 
 test:
   imports:
