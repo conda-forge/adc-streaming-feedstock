@@ -41,7 +41,7 @@ about:
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
-  summary: 'Astronomy Data Commons Streaming Client Library'
+  summary: Astronomy Data Commons Streaming Client Library
   description: |
     This package installs the ADC Streaming Client library
 
