@@ -1,6 +1,6 @@
 {% set name = "adc-streaming" %}
-{% set version = "2.3.0" %}
-{% set sha256 = "1ef60d1811e23eecdac4b1e425c0e9cf120a43753a6b6f98fe355d730f1671b5" %}
+{% set version = "2.3.1" %}
+{% set sha256 = "407e684d6a9f37e5852e69544817dd42df1750d37e8aeab0afe0f44ed5c6b528" %}
 
 package:
   name: {{ name }}
