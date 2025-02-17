@@ -7,7 +7,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/adc-streaming-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/adc-streaming-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
@@ -17,12 +17,13 @@ build:
 
 requirements:
   host:
-    - python >=3.6
+    - python >={{ python_min }}
     - pip
+    - setuptools
     - setuptools-scm
 
   run:
-    - python >=3.6
+    - python >={{ python_min }}
     - authlib
     - certifi >=2020.04.05.1
     - dataclasses
