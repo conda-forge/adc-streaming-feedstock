@@ -2,6 +2,8 @@
 {% set version = "2.5.0" %}
 {% set sha256 = "62a4870edf3765e5198c091191e58d483652a8a58cb7526b4932539dfe07be10" %}
 
+{% set PYTHON = PYTHON | default("$PYTHON") %}
+
 package:
   name: {{ name }}
   version: {{ version }}
