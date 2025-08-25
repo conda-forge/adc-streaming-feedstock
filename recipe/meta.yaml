@@ -10,7 +10,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/adc-streaming-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/adc_streaming-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
