@@ -1,6 +1,6 @@
 {% set name = "adc-streaming" %}
-{% set version = "2.7.0" %}
-{% set sha256 = "413103f117759688695a03a116b566b17f8c4a2eb22f89d8f86fecf102a0bcb5" %}
+{% set version = "2.7.1" %}
+{% set sha256 = "04fcfcc15884cbfbe03cedb5f824a2793ad444c323bf5c652160b0b2d95c5b7f" %}
 
 {% set PYTHON = PYTHON | default("$PYTHON") %}
 {% set python_min = python_min | default("3.6") %}
